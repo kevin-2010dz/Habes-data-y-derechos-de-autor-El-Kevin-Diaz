@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1500" viewBox="0 0 1200 1500" role="img" aria-labelledby="title desc">
+  <title id="title">Herramientas para copias de seguridad</title>
+  <desc id="desc">Póster académico que agrupa herramientas comerciales, de código abierto, integradas en sistemas operativos y de nube.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#101b35"/><stop offset="1" stop-color="#183c5a"/></linearGradient>
+    <style>
+      .title{font:700 54px Arial,sans-serif;fill:#fff}.sub{font:24px Arial,sans-serif;fill:#d7e5f4}
+      .head{font:700 30px Arial,sans-serif;fill:#fff}.body{font:22px Arial,sans-serif;fill:#17233b}
+      .note{font:20px Arial,sans-serif;fill:#eff6ff}.card{fill:#f4f7fb;stroke:#b6cbe0;stroke-width:2}
+    </style>
+  </defs>
+  <rect width="1200" height="1500" fill="url(#bg)"/>
+  <text x="600" y="100" text-anchor="middle" class="title">COPIAS DE SEGURIDAD</text>
+  <text x="600" y="148" text-anchor="middle" class="sub">Herramientas citadas en la Guía 03_04</text>
+  <g transform="translate(60 210)">
+    <rect class="card" width="510" height="380" rx="22"/>
+    <text x="30" y="58" class="head" fill="#153b63">Comerciales</text>
+    <text x="35" y="120" class="body"><tspan font-weight="700">Acronis Cyber Protect</tspan><tspan x="35" dy="30">Backup integrado con ciberprotección.</tspan></text>
+    <text x="35" y="205" class="body"><tspan font-weight="700">Veeam Backup &amp; Replication</tspan><tspan x="35" dy="30">Entornos virtualizados y empresariales.</tspan></text>
+    <text x="35" y="290" class="body"><tspan font-weight="700">Carbonite</tspan><tspan x="35" dy="30">Respaldo en nube para organizaciones.</tspan></text>
+  </g>
+  <g transform="translate(630 210)">
+    <rect class="card" width="510" height="380" rx="22"/>
+    <text x="30" y="58" class="head" fill="#153b63">Código abierto</text>
+    <text x="35" y="120" class="body"><tspan font-weight="700">Bacula</tspan><tspan x="35" dy="30">Gestión de respaldos en red.</tspan></text>
+    <text x="35" y="205" class="body"><tspan font-weight="700">Duplicati</tspan><tspan x="35" dy="30">Copias cifradas y almacenamiento remoto.</tspan></text>
+    <text x="35" y="290" class="body"><tspan font-weight="700">Restic</tspan><tspan x="35" dy="30">Repositorios deduplicados y cifrados.</tspan></text>
+  </g>
+  <g transform="translate(60 640)">
+    <rect class="card" width="510" height="380" rx="22"/>
+    <text x="30" y="58" class="head" fill="#153b63">Sistemas operativos</text>
+    <text x="35" y="130" class="body"><tspan font-weight="700">Windows Backup / Historial</tspan><tspan x="35" dy="32">Opciones nativas de Windows.</tspan></text>
+    <text x="35" y="220" class="body"><tspan font-weight="700">Time Machine</tspan><tspan x="35" dy="32">Copias versionadas en macOS.</tspan></text>
+    <text x="35" y="310" class="body"><tspan font-weight="700">rsync</tspan><tspan x="35" dy="32">Sincronización y copias en Linux.</tspan></text>
+  </g>
+  <g transform="translate(630 640)">
+    <rect class="card" width="510" height="380" rx="22"/>
+    <text x="30" y="58" class="head" fill="#153b63">Nube</text>
+    <text x="35" y="125" class="body"><tspan font-weight="700">Drive / OneDrive / Dropbox</tspan><tspan x="35" dy="30">Sincronización y almacenamiento.</tspan></text>
+    <text x="35" y="220" class="body"><tspan font-weight="700">AWS Backup</tspan><tspan x="35" dy="30">Gestión de respaldos en AWS.</tspan></text>
+    <text x="35" y="305" class="body"><tspan font-weight="700">Azure Backup</tspan><tspan x="35" dy="30">Protección de cargas en Azure.</tspan></text>
+  </g>
+  <rect x="60" y="1080" width="1080" height="300" rx="22" fill="#fff" opacity=".12" stroke="#b6cbe0" stroke-width="2"/>
+  <text x="100" y="1140" class="head">Antes de elegir</text>
+  <text x="100" y="1190" class="note">• Evalúa RPO/RTO, costo, volumen, retención y facilidad de restauración.</text>
+  <text x="100" y="1230" class="note">• Protege la consola y el repositorio; separa cuentas administrativas.</text>
+  <text x="100" y="1270" class="note">• Mantén copias en medios/ubicaciones separadas y prueba restauraciones.</text>
+  <text x="100" y="1310" class="note">• La sincronización no sustituye una copia versionada y aislada.</text>
+  <text x="600" y="1435" text-anchor="middle" class="sub">Material educativo · Verificar funciones, licencias y condiciones actuales con cada proveedor</text>
+</svg>

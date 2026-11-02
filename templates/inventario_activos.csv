@@ -1,0 +1,2 @@
+id,nombre_activo,propietario,ubicacion,clasificacion,datos_personales,criticidad,dependencias,frecuencia_backup,retencion,fecha_revision
+ACT-001,Ejemplo ficticio - carpeta de tickets,Responsable mesa de ayuda,Servidor de laboratorio,Confidencial,Sí,Alta,Directorio de identidad,Diaria,Por aprobar,AAAA-MM-DD

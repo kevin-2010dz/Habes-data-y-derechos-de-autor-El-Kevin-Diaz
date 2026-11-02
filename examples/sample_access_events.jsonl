@@ -1,0 +1,4 @@
+{"timestamp":"2026-10-30T14:20:00Z","user_id":"usr-demo-01","asset":"share://mesa-ayuda/tickets","action":"read","result":"allowed","source":"host-demo-01","ticket":"INC-1042"}
+{"timestamp":"2026-10-30T14:22:00Z","user_id":"usr-demo-02","asset":"share://mesa-ayuda/restringido","action":"read","result":"denied","source":"host-demo-02"}
+{"timestamp":"2026-10-30T14:30:00Z","user_id":"usr-demo-03","asset":"iam://roles/admin","action":"permission_change","result":"allowed","source":"host-demo-03"}
+{"timestamp":"2026-10-30T14:40:00Z","user_id":"usr-demo-04","asset":"drive://export","action":"bulk_download","result":"allowed","source":"host-demo-04","ticket":"CHG-202"}

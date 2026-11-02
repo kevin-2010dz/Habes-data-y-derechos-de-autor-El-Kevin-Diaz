@@ -1,0 +1,2 @@
+id,activo,amenaza,vulnerabilidad,probabilidad_1a5,impacto_1a5,nivel,tratamiento,responsable,fecha_objetivo,estado,evidencia
+R-001,Ejemplo ficticio - tickets,Acceso no autorizado,Permisos no revisados,3,4,12,Revisar roles y retirar permisos innecesarios,Propietario del activo,AAAA-MM-DD,Abierto,TCK-000

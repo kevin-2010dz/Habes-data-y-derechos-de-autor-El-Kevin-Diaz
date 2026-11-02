@@ -1,0 +1,2 @@
+fecha,activo_o_conjunto,fecha_backup_usado,resultado_integridad,duracion_minutos,rpo_real,rto_real,desviacion,accion_correctiva,responsable,aprobacion
+AAAA-MM-DD,Ejemplo ficticio,backup-AAAAmmdd-HHMMSS.zip,Exitoso,12,24h,2h,Ninguna,Ninguna,Aprendiz,Instructor

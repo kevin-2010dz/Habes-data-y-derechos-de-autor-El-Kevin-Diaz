@@ -1,0 +1,22 @@
+# Datos operativos y respaldos: nunca versionar información real
+backups/
+*.zip
+*.bak
+*.sql
+*.db
+*.sqlite*
+*.log
+*.jsonl.local
+.env
+.env.*
+!.env.example
+secrets/
+logs/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.idea/
+.vscode/
+Thumbs.db
+.DS_Store
