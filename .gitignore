@@ -12,6 +12,7 @@ backups/
 !.env.example
 secrets/
 logs/
+/tmp/
 __pycache__/
 *.py[cod]
 .venv/
