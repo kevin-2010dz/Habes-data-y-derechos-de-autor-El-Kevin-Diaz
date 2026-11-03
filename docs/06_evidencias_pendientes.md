@@ -1,6 +1,6 @@
-# Evidencias prácticas que debes completar
+# Evidencias prácticas de cierre
 
-El análisis, el consentimiento modelo, el guion, el póster, las políticas y los scripts ya están preparados en este repositorio. La guía también pide evidencias que deben originarse al usar servicios o programas en tu entorno. No se simulan ni se inventan aquí.
+El análisis, el consentimiento modelo, el guion, el póster, las políticas y los scripts están preparados. La prueba de copia y restauración ya se realizó con un archivo ficticio y está registrada en [`evidencia_backup_winrar.md`](04_backups/evidencia_backup_winrar.md). La evidencia externa que falta es publicar o compartir la presentación narrada de Powtoon.
 
 ## 1. Presentación Powtoon con narración
 
@@ -26,30 +26,19 @@ Pasos para producir la evidencia:
 - Captura de publicación/reproducción: `[ruta]`
 - Duración comprobada: `[mm:ss]`
 
-## 2. Copia y restauración con herramienta de respaldo
+## 2. Copia y restauración con WinRAR: realizada
 
-Material listo:
+Se creó un archivo de prueba con **WinRAR 7.23**, se comprobó el archivo RAR, se restauró en otra carpeta y se comparó SHA-256. Los hashes coincidieron. El origen es el archivo sintético `examples/sample_access_events.jsonl`; no se usaron datos personales.
 
-- Plan de tipos, frecuencias, retención y recuperación: [`plan_y_prueba_recuperacion.md`](04_backups/plan_y_prueba_recuperacion.md).
-- Registro para completar: [`registro_prueba_restauracion.csv`](../templates/registro_prueba_restauracion.csv).
-- Script local de práctica: `scripts/backup.py` (genera ZIP y manifiesto SHA-256; no cifra ni sustituye una solución empresarial).
+El informe de evidencia está en [`evidencia_backup_winrar.md`](04_backups/evidencia_backup_winrar.md) y el registro actualizado en [`registro_prueba_restauracion.csv`](../templates/registro_prueba_restauracion.csv). El archivo RAR está guardado localmente en `tmp/actividad4-backup/Actividad4-Prueba-Backup.rar`; se excluyó de GitHub porque es un archivo de respaldo.
 
-Pasos seguros para obtener evidencia real:
-
-1. Utiliza la herramienta de copias que tengas disponible o que indique el instructor. Registra su nombre, edición y versión. Si la actividad exige un producto comercial concreto, confirma ese nombre con el instructor antes de sustituirlo por otra herramienta.
-2. Crea una carpeta de laboratorio con uno o dos archivos ficticios, por ejemplo un texto que diga `prueba de restauracion actividad 4`. No uses documentos personales, archivos de clientes ni datos reales.
-3. Configura una copia de esa carpeta en un destino distinto (por ejemplo, una unidad externa disponible). Registra el tipo, destino, fecha, resultado y retención configurada. No publiques credenciales ni rutas que revelen información privada.
-4. Desde la herramienta, restaura el archivo de prueba en una carpeta vacía separada. Ábrelo y compara su contenido con el original. La ejecución de un backup sin restauración comprobada no demuestra recuperabilidad.
-5. Completa el CSV con el resultado, duración, observaciones y responsable. Adjunta una captura recortada de la tarea y de la restauración, ocultando nombres de usuario, números de serie y rutas privadas.
-6. No subas al repositorio público el archivo de respaldo, datos reales, claves, códigos de recuperación ni capturas con información sensible.
-
-**Evidencia final:** nombre y versión de la herramienta `[completar]`; fecha `[AAAA-MM-DD]`; tipo de copia `[completar]`; restauración verificada `[sí/no]`; captura anonimizada `[ruta]`.
+La prueba se hizo en el mismo disco local y el archivo no está cifrado. Sirve como práctica verificable con herramienta instalada, pero no es un respaldo externo ni una estrategia de producción. Si el profesor pide el archivo, entrégalo aparte por el canal autorizado.
 
 ## Lista de cierre antes de entregar
 
 - [ ] Abrir `output/pdf/Actividad 4.pdf` y revisar que los datos académicos estén correctos.
 - [ ] Reemplazar campos entre corchetes del consentimiento si el instructor solicita un caso concreto; no inventar una empresa real.
 - [ ] Completar y adjuntar el Powtoon con narración y su evidencia.
-- [ ] Ejecutar y documentar la copia/restauración con la herramienta requerida por el instructor.
+- [x] Ejecutar y documentar la copia/restauración de laboratorio con WinRAR.
 - [ ] Añadir los enlaces o evidencias no sensibles a este repositorio público.
 - [ ] Revisar el contenido y entregar al instructor el enlace al repositorio y el PDF.

@@ -1,2 +1,2 @@
 fecha,activo_o_conjunto,fecha_backup_usado,resultado_integridad,duracion_minutos,rpo_real,rto_real,desviacion,accion_correctiva,responsable,aprobacion
-AAAA-MM-DD,Ejemplo ficticio,backup-AAAAmmdd-HHMMSS.zip,Exitoso,12,24h,2h,Ninguna,Ninguna,Aprendiz,Instructor
+2026-11-02,examples/sample_access_events.jsonl,Actividad4-Prueba-Backup.rar (WinRAR 7.23),RAR test y restauración exitosos; SHA-256 origen/restaurado idénticos,1,0 h,<1 min,Copia de laboratorio en el mismo disco; archivo RAR sin cifrar,Usar destino separado y cifrado para datos reales,Kevin Díaz,Pendiente de instructor

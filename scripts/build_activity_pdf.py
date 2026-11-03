@@ -224,7 +224,7 @@ def build():
                   Paragraph("Fuentes y alcance", styles["h2"]),
                   Paragraph("Las referencias oficiales de normas, autoridades y sanción están incluidas en la Parte 3. La revisión normativa corresponde al 2 de noviembre de 2026; verificar el texto vigente antes de utilizar estas propuestas como políticas reales. El guion de presentación es una base de narración y no constituye una publicación en Powtoon ni un archivo de audio.", styles["body"]),
                   Paragraph("Evidencia de práctica de backup", styles["h2"]),
-                  Paragraph("Para la entrega práctica, registrar una copia creada con la herramienta seleccionada, adjuntar evidencia permitida y completar la prueba de restauración en templates/registro_prueba_restauracion.csv. No incluir información de clientes, credenciales ni respaldos reales en un repositorio público.", styles["body"])])
+                  Paragraph("Prueba realizada el 2 de noviembre de 2026 con WinRAR 7.23 x64 y el archivo sintético examples/sample_access_events.jsonl. El test del RAR y la extracción terminaron correctamente; el SHA-256 de origen y restauración coincide: 03E9DE440307215CFD9F94C982580E99E71C1E5548E45954B221682D3F76E099. El RAR queda local, fuera de GitHub. La práctica fue en el mismo disco y sin cifrado; no representa un backup de producción. Informe: docs/04_backups/evidencia_backup_winrar.md.", styles["body"])])
 
     doc.build(story, onFirstPage=footer, onLaterPages=footer)
     print(OUT)

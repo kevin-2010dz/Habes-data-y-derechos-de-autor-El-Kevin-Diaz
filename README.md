@@ -77,7 +77,7 @@ Los ejes de ciberseguridad solicitados están desarrollados en las carpetas [`do
 
 El PDF [`output/pdf/Actividad 4.pdf`](output/pdf/Actividad%204.pdf) reúne el contexto académico, la introducción, objetivos, justificación y el desarrollo de los seis apartados de la guía, junto con el consentimiento modelo, el guion de presentación y el plan de respaldo. Para regenerarlo con Python y ReportLab, ejecutar `python scripts/build_activity_pdf.py` en un entorno que tenga ReportLab instalado. El archivo PDF listo para revisión ya está incluido; el script de generación es reproducible.
 
-La presentación Powtoon narrada y la evidencia de ejecución/restauración en una herramienta de backup deben generarse desde las cuentas o equipos donde se utilizan. El repositorio ya contiene el guion, el póster, el procedimiento y un registro para documentarlas. Sigue [`docs/06_evidencias_pendientes.md`](docs/06_evidencias_pendientes.md); no subas respaldos reales o datos sensibles.
+La guía contiene un guion completo de Powtoon y una prueba de copia/restauración documentada con WinRAR 7.23 y datos ficticios. El archivo RAR de prueba queda local y no se publica; el informe y el registro están en el repositorio. La presentación narrada debe crearse y compartirse desde una sesión de Powtoon. Sigue [`docs/06_evidencias_pendientes.md`](docs/06_evidencias_pendientes.md); no subas respaldos reales o datos sensibles.
 
 ## Uso rápido de los scripts
 
