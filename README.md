@@ -57,7 +57,7 @@ Los ejes de ciberseguridad solicitados están desarrollados en las carpetas [`do
 │   ├── 02_monitoreo/                # eventos, revisión y escalamiento
 │   ├── 03_mejora/                   # evaluación de riesgos y acciones
 │   ├── 04_backups/                  # estrategia, recuperación y póster
-│   └── 05_habeas_data_derechos_autor/ # seis partes de la guía
+│   ├── 05_habeas_data_derechos_autor/ # seis partes de la guía
 │   └── 06_evidencias_pendientes.md   # pasos para producir evidencia externa real
 ├── examples/
 │   └── sample_access_events.jsonl
