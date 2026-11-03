@@ -1,4 +1,4 @@
-# Guía 3 de Ciberseguridad: Habeas Data, derechos de autor y copias de seguridad
+# Guía 4 de Ciberseguridad: Habeas Data, derechos de autor y copias de seguridad
 
 Repositorio académico para desarrollar la **Actividad 4** de la guía `03_04_HABEAS_DATA_DERECHOS_DE_AUTOR_Y_TIPOS_DE_COPIA_DE_SEGURIDAD` y organizar los controles de ciberseguridad solicitados para la mesa de ayuda.
 
